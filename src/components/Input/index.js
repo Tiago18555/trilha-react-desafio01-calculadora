@@ -1,4 +1,3 @@
-
 import { InputContainer } from './styles';
 
 const Input = ({value}) => {
@@ -7,6 +6,6 @@ const Input = ({value}) => {
        <input disabled value={value}/>
       </InputContainer>
     );
-  }
+}
   
-  export default Input;
+export default Input;
